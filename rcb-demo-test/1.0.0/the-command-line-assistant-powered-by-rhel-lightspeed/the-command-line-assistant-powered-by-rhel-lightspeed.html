@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>The Command-Line Assistant Powered by RHEL Lightspeed :: RHEL Lightspeed for RHEL Systems</title>
+    <link rel="prev" href="../introducing-rhel-lightspeed-for-rhel-systems/the-watsonx-ai-api-llm-large-language-model.html">
+    <link rel="next" href="overview-of-the-command-line-assistant.html">
+    <meta name="generator" content="Antora 3.1.3">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.redhat.com" target="_blank"><img src="../../../_/img/redhat-logo.png" height="40px" alt="Red Hat"></a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="../../..">RHEL Lightspeed for RHEL Systems</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://github.com/RedHatQuickCourses/REPLACEREPONAME/issues" target="_blank">Report Issues</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="rcb-demo-test" data-version="1.0.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">RHEL Lightspeed for RHEL Systems</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../LABENV/index.html">Lab Environment</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../introducing-rhel-lightspeed-for-rhel-systems/introducing-rhel-lightspeed-for-rhel-systems.html">Introducing RHEL Lightspeed for RHEL Systems</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../introducing-rhel-lightspeed-for-rhel-systems/use-of-generative-ai-functionalities.html">Use of generative AI functionalities</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../introducing-rhel-lightspeed-for-rhel-systems/the-watsonx-ai-api-llm-large-language-model.html">The WatsonX AI API LLM (Large Language Model)</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="the-command-line-assistant-powered-by-rhel-lightspeed.html">The Command-Line Assistant Powered by RHEL Lightspeed</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="overview-of-the-command-line-assistant.html">Overview of the command-line assistant</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="features-and-capabilities.html">Features and capabilities</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../hands-on-lab---interacting-with-the-command-line-assistant/hands-on-lab---interacting-with-the-command-line-assistant.html">Hands-on Lab - Interacting with the Command-Line Assistant</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../hands-on-lab---interacting-with-the-command-line-assistant/setting-up-a-test-environment.html">Setting up a test environment</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../hands-on-lab---interacting-with-the-command-line-assistant/practical-exercises-to-utilize-the-command-line-assistant-for-various-tasks.html">Practical exercises to utilize the command-line assistant for various tasks</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../appendix/appendix.html">Appendix</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">RHEL Lightspeed for RHEL Systems</span>
+    <span class="version">1.0.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">RHEL Lightspeed for RHEL Systems</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">1.0.0</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">RHEL Lightspeed for RHEL Systems</a></li>
+    <li><a href="the-command-line-assistant-powered-by-rhel-lightspeed.html">The Command-Line Assistant Powered by RHEL Lightspeed</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">The Command-Line Assistant Powered by RHEL Lightspeed</h1>
+<div class="paragraph">
+<p>1.1. THE COMMAND-LINE ASSISTANT POWERED BY RHEL LIGHTSPEED</p>
+</div>
+<div class="paragraph">
+<p>The command-line assistant powered by RHEL Lightspeed is an optional AI tool integrated within the RHEL command-line interface. It harnesses the power of generative AI functionalities, specifically the WatsonX AI API LLM (Large Language Model), to provide comprehensive assistance.</p>
+</div>
+<div class="paragraph">
+<p>Key features and capabilities include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Answering RHEL-related questions</strong>: The assistant can provide detailed responses to a wide range of queries about RHEL, drawing from a vast pool of information including Red Hat Knowledge Centered Service (KCS) articles and RHEL documentation.</p>
+</li>
+<li>
+<p><strong>Troubleshooting and issue resolution</strong>: It offers guidance and solutions for troubleshooting and fixing issues, leveraging its extensive knowledge base.</p>
+</li>
+<li>
+<p><strong>Log file interpretation</strong>: The assistant can help users understand complex log files, translating technical jargon into easily digestible information.</p>
+</li>
+<li>
+<p><strong>Recommendations</strong>: It can provide recommendations for optimal system configurations, updates, or new feature implementations based on the user&#8217;s specific context.</p>
+</li>
+<li>
+<p><strong>Interactive workflows</strong>: The assistant supports interactive workflows to help solve issues, implement new RHEL features, and find relevant information, thereby enhancing the overall user experience and efficiency in managing RHEL systems.</p>
+</li>
+</ul>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="../introducing-rhel-lightspeed-for-rhel-systems/the-watsonx-ai-api-llm-large-language-model.html">The WatsonX AI API LLM (Large Language Model)</a></span>
+  <span class="next"><a href="overview-of-the-command-line-assistant.html">Overview of the command-line assistant</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <img src="../../../_/img/rhl-logo-red.png" height="40px" alt="Red Hat"  href="https://redhat.com" >
+</footer><script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
