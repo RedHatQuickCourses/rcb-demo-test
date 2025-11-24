@@ -1,0 +1,50 @@
+#  Practical exercises to utilize the command-line assistant for various tasks
+
+== Hands-on Lab - Utilizing the Command-Line Assistant for Various Tasks
+
+In this hands-on lab, you will learn to effectively utilize the command-line assistant powered by RHEL Lightspeed for various tasks. The lab is designed to provide practical experience in interacting with the command-line assistant, enabling you to leverage its capabilities for different use cases.
+
+### 4.1. Asking Questions to the Command-Line Assistant
+
+Begin by familiarizing yourself with asking questions to the command-line assistant. Use the "c" command followed by your questions in quotation marks. For example:
+
+```
+$ c "What is RHEL?"
+```
+
+The command-line assistant will respond with an explanation or relevant information.
+
+#### Exercise 1: Asking Basic Questions
+
+1. Ask the command-line assistant about the purpose of the `yum` package manager.
+2. Inquire about the default shell used in RHEL systems.
+3. Find out the location of the Apache web server configuration file.
+
+### 4.2. Attaching a File to Your Questions to the Command-Line Assistant
+
+The command-line assistant can also process and analyze files, providing insights or answers based on their content.
+
+#### Exercise 2: Analyzing Files with the Command-Line Assistant
+
+1. Create a sample text file containing a list of RHEL commands.
+2. Use the command-line assistant to identify commands related to network configuration.
+3. Attach a log file and ask the command-line assistant to summarize the events.
+
+### 4.3. Checking Your History Interaction with the Command-Line Assistant
+
+The command-line assistant maintains a history of your interactions, allowing you to review past questions and responses.
+
+#### Exercise 3: Reviewing Interaction History
+
+1. Ask the command-line assistant a few questions.
+2. Use the `history` command to review your past interactions.
+3. Identify any patterns or recurring questions that could benefit from documentation or further investigation.
+
+### 4.4. Redirecting Command Output to the Command-Line Assistant
+
+You can redirect the output of a command to the command-line assistant for analysis or interpretation.
+
+#### Exercise 4: Analyzing Command Output
+
+1. Execute a command that generates output, such as `ls -l`.
+2. Redirect the output to the command

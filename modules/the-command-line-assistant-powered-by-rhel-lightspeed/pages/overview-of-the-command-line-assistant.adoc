@@ -1,0 +1,31 @@
+#  Overview of the command-line assistant
+
+== The Command-Line Assistant Powered by RHEL Lightspeed
+
+The command-line assistant, powered by RHEL Lightspeed, is an innovative tool designed to enhance user interaction with Red Hat Enterprise Linux (RHEL) systems via the command-line interface. This assistant is tailored to cater to users of varying expertise levels, from novices to seasoned professionals. It offers a wide array of functionalities, including but not limited to:
+
+- **Answering RHEL-related questions**: Users can pose queries about RHEL, and the command-line assistant will provide accurate and relevant responses based on its extensive knowledge base.
+
+- **Assisting with troubleshooting**: The assistant can guide users through troubleshooting processes, offering step-by-step guidance and potential solutions to common system issues.
+
+- **Deciphering log entries**: The command-line assistant can help users interpret complex log entries, making it easier to diagnose system problems and understand system behavior.
+
+The command-line assistant leverages generative AI functionalities, specifically the WatsonX AI API LLM (Large Language Model), to process and respond to user queries effectively. The process flow for input and output in the command-line assistant is as follows:
+
+1. **Input**: The assistant receives the user's question or command as input.
+
+2. **Logging and Storage**: The assistant logs and stores complete transcripts of conversations, including user queries, system instructions, referenced documentation, and the user's question. This information is sent to the configured Large Language Model (LLM) provider.
+
+3. **Backend Processing**: The input is processed by the backend, which involves searching for relevant knowledge related to the user's query.
+
+4. **AI Inference**: The command-line assistant combines the user's query, relevant knowledge, and other instructions, then sends this for AI inference using the LLM provider.
+
+5. **Output**: The user receives an output from the command-line assistant as a response.
+
+To interact with the command-line assistant, users can employ the "c" command followed by their questions in quotation marks. For instance:
+
+```
+$ c "What is RHEL"
+```
+
+It is crucial to remember that while the command-line assistant is a powerful tool, users should not rely solely on its outputs without human review. Always verify the AI and

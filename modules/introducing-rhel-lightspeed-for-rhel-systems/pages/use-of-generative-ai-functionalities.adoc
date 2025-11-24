@@ -1,0 +1,33 @@
+#  Use of generative AI functionalities
+
+== Use of Generative AI Functionalities in RHEL Lightspeed for RHEL Systems
+
+RHEL Lightspeed harnesses the power of generative AI through the WatsonX AI API LLM (Large Language Model) to provide an intelligent and intuitive command-line assistant. This AI-driven tool is designed to assist users in managing, configuring, and troubleshooting their RHEL systems more efficiently.
+
+1. **Integration with Red Hat Resources**
+
+   The command-line assistant powered by RHEL Lightspeed integrates seamlessly with various Red Hat resources, including Knowledge Centered Service (KCS) articles and RHEL documentation. This integration ensures that the assistant has access to a wealth of up-to-date information, enabling it to provide accurate and relevant responses to user queries.
+
+2. **Natural Language Processing**
+
+   The generative AI model processes natural language input, allowing users to interact with the command-line assistant using everyday language. This feature makes the assistant accessible to users with varying levels of technical expertise, as they can ask questions or provide instructions in a manner that is comfortable and familiar to them.
+
+3. **Versatile Capabilities**
+
+   The command-line assistant powered by RHEL Lightspeed offers a wide range of capabilities, including:
+
+   - **Answering RHEL-related questions:** Users can ask the assistant questions about RHEL features, commands, or best practices, and receive detailed, accurate responses.
+   
+   - **Troubleshooting and issue resolution:** The assistant can help diagnose and resolve issues by providing guidance on relevant commands, configuration files, or potential causes.
+   
+   - **Log file interpretation:** Users can request assistance in understanding log files, and the assistant will provide explanations or suggest further actions based on the log data.
+   
+   - **Recommendations:** The assistant can offer recommendations for optimizing system performance, implementing new features, or addressing potential security concerns.
+
+4. **Interactive Workflows**
+
+   The command-line assistant powered by RHEL Lightspeed supports interactive workflows, enabling users to engage in a conversation-like exchange with the AI tool. This feature allows for a more dynamic and collaborative problem-solving experience, as users can refine their queries or provide additional context based on the assistant's responses.
+
+5. **External Infrastructure Deployment**
+
+   The WatsonX AI API LLM is deployed as a SaaS (Software as a Service) external infrastructure, ensuring that the

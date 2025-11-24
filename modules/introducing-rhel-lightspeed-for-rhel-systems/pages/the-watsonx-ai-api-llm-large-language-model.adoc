@@ -1,0 +1,27 @@
+#  The WatsonX AI API LLM (Large Language Model)
+
+== The WatsonX AI API LLM (Large Language Model)
+
+RHEL Lightspeed harnesses the power of the WatsonX AI API LLM (Large Language Model) to deliver intelligent, context-aware assistance for managing Red Hat Enterprise Linux (RHEL) systems. This generative AI model is deployed as a SaaS (Software as a Service) external infrastructure, ensuring seamless integration and scalability.
+
+### How the WatsonX AI API LLM Works
+
+The WatsonX AI API LLM is a sophisticated language model that has been trained on an extensive dataset, enabling it to understand and generate human-like text. In the context of RHEL Lightspeed, the LLM is fine-tuned with information from RHEL product documentation and the Red Hat Knowledgebase. This fine-tuning allows the model to provide accurate, relevant, and context-specific responses to user queries.
+
+When a user interacts with the command-line assistant, their input is sent to the WatsonX AI API LLM along with system instructions and referenced documentation. The LLM processes this information and generates a response tailored to the user's query.
+
+### Key Features of the WatsonX AI API LLM
+
+1. **Contextual Understanding**: The LLM can comprehend the context of a user's query, enabling it to provide accurate and relevant responses.
+2. **Knowledge Integration**: By being fine-tuned with RHEL product documentation and the Red Hat Knowledgebase, the LLM ensures that the responses are based on reliable and up-to-date information.
+3. **Scalability**: As a SaaS external infrastructure, the WatsonX AI API LLM can easily scale to accommodate a growing number of users and queries.
+4. **Privacy**: The LLM is designed to avoid processing personal information, ensuring user data privacy and compliance with relevant regulations.
+
+### Hands-on Lab - Exploring the WatsonX AI API LLM
+
+While the primary interaction with the WatsonX AI API LLM occurs through the command-line assistant, users can also explore its capabilities independently. This hands-on lab activity will guide you through the process of interacting with the LLM using the WatsonX API.
+
+#### Prerequisites
+
+- Familiarity with command-line interfaces
+- Access to a Red Hat Enterprise Linux 10

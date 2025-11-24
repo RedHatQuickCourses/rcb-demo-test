@@ -1,0 +1,73 @@
+#  Setting up a test environment
+
+= Setting up a Test Environment for RHEL Lightspeed Command-Line Assistant
+
+To effectively demonstrate the capabilities of the RHEL Lightspeed Command-Line Assistant, it's essential to set up a test environment. This guide will walk you through the necessary steps to create a controlled environment for hands-on practice.
+
+## Prerequisites
+
+1. A Red Hat Enterprise Linux (RHEL) system with root access.
+2. The command-line assistant enabled.
+
+## Step 1: Prepare the Test System
+
+Ensure your test system meets the minimum requirements and has the necessary packages installed. In this example, we'll use Apache HTTP Server (httpd) for demonstration purposes.
+
+## Step 2: Install Apache HTTP Server
+
+If Apache HTTP Server is not already installed, use the following command to install it:
+
+```bash
+sudo yum install httpd
+```
+
+## Step 3: Verify Apache HTTP Server Installation
+
+To confirm the installation, list the installed httpd package version:
+
+```bash
+sudo rpm -qa httpd
+```
+
+You should see an output similar to:
+
+```
+httpd-2.4.62-2.fc40.x86_64
+```
+
+## Step 4: Check httpd.conf File
+
+The main Apache HTTP Server configuration file is `httpd.conf`. Verify its content with the following command:
+
+```bash
+sudo cat /etc/httpd/conf/httpd.conf
+```
+
+## Step 5: Query httpd Packages
+
+List all httpd-related packages installed on your system:
+
+```bash
+sudo rpm -qa httpdq
+```
+
+## Step 6: Identify Ports
+
+Determine the ports on which the web server accepts incoming requests:
+
+```bash
+cat /etc/httpd/conf/httpd.conf | grep Listen
+```
+
+## Step 7: Set Up SELinux Contexts (if needed)
+
+If you encounter SELinux-related issues, use the command-line assistant to identify and set contexts. For example, to check for the `httpd_var_run_t` context:
+
+```bash
+c "i don't have a httpd_var_run_t contexts"
+```
+
+The assistant will provide suggestions, such as:
+
+```bash
+sudo chcon -R -t httpd

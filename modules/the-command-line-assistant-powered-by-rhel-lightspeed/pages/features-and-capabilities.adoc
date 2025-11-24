@@ -1,0 +1,17 @@
+#  Features and capabilities
+
+== The Command-Line Assistant Powered by RHEL Lightspeed
+
+The command-line assistant powered by RHEL Lightspeed is an AI-driven tool designed to enhance your RHEL management experience. It offers a range of features and capabilities that make it an invaluable asset for both novice and experienced RHEL users.
+
+1. **AI-Powered Assistance**: The assistant leverages generative AI functionalities, specifically the WatsonX AI API LLM (Large Language Model), to provide accurate and contextually relevant responses to your queries. This enables it to answer RHEL-related questions, assist with troubleshooting and issue resolution, and offer recommendations based on Red Hat's extensive knowledge base.
+
+2. **Interactive Workflows**: The command-line assistant supports interactive workflows, allowing you to solve issues, implement new RHEL features, and find information efficiently. For instance, you can use it to run a service over the internet, proxying all requests from RHEL systems through a single internet-connected proxy system.
+
+3. **Log File Interpretation**: The assistant can help you understand complex log files, breaking down the information into digestible parts and explaining its significance in the context of your RHEL system.
+
+4. **RHEL Lifecycle Alignment**: The command-line assistant follows the RHEL lifecycle, ensuring that the information it provides is always up-to-date and in line with Red Hat's support policies. For detailed information on supported versions and associated policies, refer to the [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata).
+
+5. **Data Privacy**: It's important to note that the command-line assistant does not have direct access to system information. However, you can include relevant environment details in your messages, which are then sent to the LLM provider for more accurate responses. For example, if you ask about free memory, the assistant will guide you to run a command to determine this information instead of providing it directly.
+
+In the next section, we will guide you through a hands-on lab to interact with the command-line assistant, helping you familiarize yourself with its features and capabilities in a practical setting.
